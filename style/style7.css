@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  padding: 10px;
+      align-items: center; 
+  justify-content: center;
+  background: #a8d8ff;
+}
+.form__field {
+  flex: 1;
+}
+.form__item {
+  background: #2a6bc7;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  margin: 0
+}
+
+
+
+
