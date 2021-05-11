@@ -1,12 +1,30 @@
 
-.cards {
+.cards {  
+    display: flex;
+    flex-wrap: wrap;
+       align-items: center; justify-content: center;
     min-height: 100vh;
-  display: flex;
-   flex-wrap: wrap;      
-  align-items: flex-start; 
-  justify-content: center;
-}
-.card {
-  flex: 0 0 250px;
+    
 }
 
+.card{
+    padding: 0 8px 0 8px;
+     background-color: olive; 
+  margin: 0 8px 0 8px;
+      flex: 0 0 250px; 
+      
+                  
+}
+.but{
+    background-color: goldenrod;
+    
+}
+li{
+    list-style-type: none;
+    background-color: oldlace;
+    padding: 8px 0 8px 0;
+}
+
+ul{
+    padding-left: 0; 
+}
