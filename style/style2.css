@@ -1,0 +1,52 @@
+.row {
+ 
+   display: flex;
+   
+ 
+}
+.row_cell {
+ 
+   flex: 1;
+  background-color: paleturquoise;
+}
+.row_cell--2 {
+ 
+   flex: 2;
+background-color: cornsilk;
+}
+.row_cell--3 {
+ 
+   flex: 3;
+   background-color: springgreen;
+}
+
+.row_cell--top {
+ 
+  align-self: flex-start;
+ background-color: lightpink;
+}
+
+.row_cell--bottom {
+ 
+  align-self: flex-end;
+ background-color: lightpink;
+}
+
+.row_cell--center {
+ 
+  align-self: center;
+ background-color: lightpink;
+}
+.row--top {
+ 
+   align-items: flex-start;
+}
+.row--center {
+ 
+   align-items: center;
+}
+.row--bottom {
+ 
+   align-items: flex-end
+ 
+}
