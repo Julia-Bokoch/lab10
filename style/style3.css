@@ -1,10 +1,36 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 11.05.2021, 16:59:39
-    Author     : NeDo
-*/
+body {
+ background-color: #7f7679;
+   display: flex;
+   flex-direction: column;
+ 
+}
+header, footer {
+ 
+  height: 20vh;
+ 
+}
+
+main {
+    
+ height: 50vh;
+   flex: 1;
+     display: flex;
+ 
+}
+nav,
+aside {
+ background-color: #574e59;
+  width: 20vw;
+ 
+}
+article {
+ background-color: #a59ba8;
+   flex: 1;
+ 
+}
+nav {
+ 
+  order: -1;
+ 
+}
 
