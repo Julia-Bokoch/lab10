@@ -34,7 +34,7 @@ main {
 }
 .img{
     
-    height: 170px;
+    height: 120px;
     width: 170px;
     background-color: #311963;
     
@@ -47,19 +47,19 @@ main {
 }
 
 .t1 {
-    height: 25px;
+    height: 20px;
   width: 100%;
   margin: 0 0 30px 20px;
   background: #311963;  
 }
 .t2 {
-    height: 25px;
+    height: 20px;
   width: 70%;
   margin: 0 0 30px 20px;
   background: #311963;  
 }
 .t3 {
-    height: 25px;
+    height: 20px;
   width: 40%;
   margin: 0 0 30px 20px;
  background: #311963;  
